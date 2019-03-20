@@ -183,10 +183,10 @@ If you would like to read more on this topic, these chapters from _Operating Sys
 [http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)
 
 Additionally, it's always a good idea to read the man pages for any system calls you're trying to use:
- - The man page for `fork`: [https://linux.die.net/man/2/fork](https://linux.die.net/man/2/fork)
- - The man page for `wait` and `waitpid`: [https://linux.die.net/man/3/waitpid](https://linux.die.net/man/3/waitpid)
- - The man page for the `exec` family: [https://linux.die.net/man/3/exec](https://linux.die.net/man/3/exec)
- - The man page for the `pipe` system call: [https://linux.die.net/man/2/pipe](https://linux.die.net/man/2/pipe)
+ - The man page for `fork`: [http://linux.die.net/man/2/fork](http://linux.die.net/man/2/fork)
+ - The man page for `wait` and `waitpid`: [http://linux.die.net/man/3/waitpid](http://linux.die.net/man/3/waitpid)
+ - The man page for the `exec` family: [http://linux.die.net/man/3/exec](http://linux.die.net/man/3/exec)
+ - The man page for the `pipe` system call: [http://linux.die.net/man/2/pipe](http://linux.die.net/man/2/pipe)
 
 ## Stretch Goal
 Open up the `/stretch` directory. In there, you'll find an involved exercise pertaining to file locking and concurrency. Read the README included in that directory for instructions on what to do. 

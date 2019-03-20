@@ -147,7 +147,7 @@ expects to see a snappy response from, and less time to "background" processes
 that can be delayed a bit.
 
 The [multilevel feedback
-queue](https://en.wikipedia.org/wiki/Multilevel_feedback_queue) is a popular
+queue](http://en.wikipedia.org/wiki/Multilevel_feedback_queue) is a popular
 scheduling algorithm.
 
 </p></details></p>
@@ -159,8 +159,8 @@ scheduling algorithm.
 From an individual process's perspective on a modern OS, the process thinks it
 has all the memory on the entire system to itself. It's an illusion, though,
 brought about by the magic of [virtual
-memory](https://en.wikipedia.org/wiki/Virtual_memory). This is where the
-individual processes's stacks and heaps are kept.
+memory](http://en.wikipedia.org/wiki/Virtual_memory). This is where the
+individual processes's stacks and heap are kept.
 
 So if the process thinks it has all the RAM, where are the process list and
 other OS internals kept?

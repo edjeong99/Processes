@@ -16,7 +16,7 @@ these processes run at once? Anything bad?
 ## Concurrency
 
 What is
-[concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))?
+[concurrency](http://en.wikipedia.org/wiki/Concurrency_(computer_science))?
 In a nutshell, we want to run a number of processes at the same time
 with access to _shared resources_. And we want these processes not to
 step on each-other's toes.
@@ -77,7 +77,7 @@ simulated bank account, that is. Don't get your hopes up.)
    **Short answer**: What happens? Do things go as planned and look
    sensible? What do you speculate is happening?
 
-4. Add calls to [`flock()`](https://linux.die.net/man/2/flock) to
+4. Add calls to [`flock()`](http://linux.die.net/man/2/flock) to
    capture and release an exclusive lock on the file before reading and
    changing the data.
 
