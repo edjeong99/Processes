@@ -10,6 +10,19 @@
 int main(void)
 {
     // Your code here
-
+   int rc = fork();
+  
+    if (rc < 0) {    // fork failed; exit
+   
+        exit(1);
+    } else if (rc == 0) {    // child process satisfies this branch
+         printf("Hello\n");
+       
+    } else {
+        int wc = waitpid(rc, NULL, 0);
+        printf("Good-Bye\n");
+       }
     return 0;
+
+
 }
